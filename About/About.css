@@ -196,8 +196,6 @@ body {
 #########################*/
 
 
-
-
 /*########################
 #########################*/
 
@@ -263,11 +261,12 @@ body {
 #########################*/
 
 
-.review-section {
+
+.review-container {
   background-color: #cad0f1;
-  width: 90%;
+  width: 100%;
   text-align: center;
-  margin: 0 auto; /* ⬅️ This centers it horizontally and adds vertical margin */
+  margin: 0 auto; /* This centers it horizontally and adds vertical margin */
   margin-top: 30px;
   border-radius: 12px;
   padding:40px 0;
@@ -335,7 +334,7 @@ body, html {
 
 
 
-/*.divider {
+.divider {
   position: relative;
   margin: 40px;
 }
@@ -350,9 +349,9 @@ body, html {
   max-width: none;
   display: block;
   object-fit: cover;
-}*/
+}
 
-.divider {
+/*.divider {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -365,7 +364,7 @@ body, html {
   display: block;
   object-fit: cover;
 }
-
+*/
 .banner-text {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
